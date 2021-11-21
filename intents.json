@@ -1,0 +1,58 @@
+{"intents": [
+	{"tag": "greetings",
+	"patterns": ["hello", "hey", "hi", "greetings", "yo"],
+	"responses": ["Hello!", "Hey!", "Hi!"]
+	},
+	{"tag": "feelings",
+	"patterns": ["how are you?", "how are you doing?", "how are u", "what's up"],
+	"responses": ["Good, thanks.", "Perfect, thank you."]
+	},
+	{"tag": "name",
+	"patterns": ["whats your name", "your name", "ur name", "what should i call you", "how are you called"],
+	"responses": ["My name is Boca! I was created by Louis"]
+	},
+	{"tag": "old",
+	"patterns": ["how old are you", "whats your age", "whats ur age", "old", "age"],
+	"responses": ["I was created in 2021."]
+	},
+	{"tag": "creator",
+	"patterns": ["who created you", "who is your creator", "who made you", "who do you work for"],
+	"responses": ["My creator's name is Louis.", "I was created by Louis."]
+	},
+	{"tag": "creation",
+	"patterns": ["how do you work", "how were you created"],
+	"responses": ["I was created with Python, trained to respond to your questions accordingly."]
+	},
+	{"tag": "help",
+	"patterns": ["help", "help me", "can you help me"],
+	"responses": ["What do you need help with?", "Sure thing! Tell me what you need help with."]
+	},
+	{"tag": "purpose",
+	"patterns": ["what do you do", "what is your purpose", "what can you do", "purpose"],
+	"responses": ["I'm here to chat, help, and provide information to whoever talks to me. Ask me anything!"]
+	},
+	{"tag": "goodbye",
+	"patterns": ["bye", "goodbye", "see you soon", "see you", "cya"],
+	"responses": ["Goodbye!", "See you around!", "Come back anytime."]
+	},
+	{"tag": "later",
+	"patterns": ["see you later", "later", "talk later"],
+	"responses": ["Can't wait!", "See you later!", "Anytime!"]
+	},
+	{"tag": "weather",
+	"patterns": ["weather", "what is the weather", "temperature", "what is the temperature", "whats the weather like", "is it sunny?", "is it cloudy?", "is it raining?", "is it hot?", "is it cold?", "temperature outside", "whats the temperature right now?", "Whats the weather right now?"],
+	"responses": ["Custom response"]
+	},
+	{"tag": "thanks",
+	"patterns": ["Thanks", "thanks", "thank you", "thank", "tank"],
+	"responses": ["You're welcome.", "Anytime!", "Glad to help!", "You are very welcome!", "Anything for you!", "Happy to be able to help."]
+	},
+	{"tag": "time",
+	"patterns": ["What time is it?", "What's the time?", "Time", "Whats time?"],
+	"responses": ["Custom response"]
+	},
+	{"tag": "date",
+	"patterns": ["What date is it?", "What's today's date?", "What day is it?", "Whats the day?", "what's the date today?"],
+	"responses": ["Custom response"]
+	}
+]}
